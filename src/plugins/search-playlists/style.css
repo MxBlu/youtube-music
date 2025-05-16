@@ -1,0 +1,40 @@
+.search-filter-container {
+  display: flex;
+  height: 40px;
+}
+
+.filter-search-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, .15);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.filter-search-box input {
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  color: #fff;
+}
+
+.filter-search-box input::placeholder {
+  font-weight: bold;
+}
+
+.filter-search-selectall {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.filter-search-selectall input {
+  width:20px;
+  height:20px;
+  background: rgba(255, 255, 255, .15);
+  color: #fff;
+  border:2px solid #fff;
+}
